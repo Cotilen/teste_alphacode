@@ -1,0 +1,33 @@
+/* Estilos */
+
+.blue{
+    background-color: #068ED0;
+}
+
+.jumbotron{
+    height: 200px;
+}
+
+.color__border:focus {
+    border: 3px solid #068ED0;
+}
+
+label{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.form-check-input {
+    transform: scale(2); 
+    margin-right: 10px;
+    margin-top: 0.6rem;
+    margin-left: -0.8rem;
+    
+}
+
+.form-check-label {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
