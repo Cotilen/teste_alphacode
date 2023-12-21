@@ -1,6 +1,12 @@
 
     <!-- .container -->
+    <footer class="row blue text-white d-flex justify-content-around align-content-center padding">
+      <div>Termos | Políticas</div>
+      <div>&copy Copiryght 2022| Desenvolvido por <img class="logo_rodape" src="../../img/logo_rodape_alphacode.png" alt=""></div>
+      <div>&copy Alphacode IT Solutions 2022</div>
+    </footer>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

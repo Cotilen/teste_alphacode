@@ -1,6 +1,6 @@
 <body>
-    <div class="content">
-        <table class="table">
+    <div class="content padding">
+        <table class="table table_scroll">
             <thead>
                 <tr class="blue text-white">
                     <th>Nome</th>
@@ -10,16 +10,16 @@
                     <th>Ações</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody >
                 <?php foreach ($resultData as $data) :
                     $array = $data
                 ?>
                     <tr id="<?= $data['id'] ?>">
-                        <td><?= substr($data['name'], 0, 20) ?></td>
+                        <td><?= substr($data['name'], 0, 25) ?></td>
                         <td><?= $data['birth'] ?></td>
-                        <td><?= $data['email'] ?></td>
+                        <td><?= substr($data['email'], 0,35) ?></td>
                         <td><?= $data['celular'] ?></td>
-                        <td class="row action">
+                        <td class="row action ">
                             <input type="hidden" name="id" value="<?= $data['id'] ?>">
                             <button id="button" type="submit" onclick="openModalUpdate(
                                 '<?= $data['id'] ?>',

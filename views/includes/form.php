@@ -1,5 +1,5 @@
 <form action="index.php?action=create" method="post" onsubmit="return validateForm()">
-    <div class="row">
+    <div class="row padding">
         <div class="col">
             <div class="form-group">
                 <label>Nome completo</label>
