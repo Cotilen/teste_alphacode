@@ -52,7 +52,7 @@
             </div>
 
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="check1" name="msgEmail"  value="1" checked>
+                <input class="form-check-input" type="checkbox" id="check1" name="msgEmail" value="1" checked>
                 <label class="form-check-label">Enviar notificações por E-mail</label>
             </div>
         </div>

@@ -19,6 +19,8 @@
             try{
                 // Define uma interface de conexão segura a um banco de dados
                 $this->connection = new PDO('mysql:host='.HOST.';dbname='.DATABASENAME,USER,PASSWORD);
+
+                $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             }
             catch(PDOException $e)
             {
