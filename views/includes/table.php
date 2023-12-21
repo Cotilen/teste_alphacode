@@ -2,7 +2,7 @@
     <div class="content">
         <table class="table">
             <thead>
-                <tr class="blue text-white ">
+                <tr class="blue text-white">
                     <th>Nome</th>
                     <th>Data de Nascimento</th>
                     <th>Email</th>
@@ -15,11 +15,11 @@
                     $array = $data
                 ?>
                     <tr id="<?= $data['id'] ?>">
-                        <td><?= $data['name'] ?></td>
+                        <td><?= substr($data['name'], 0, 20) ?></td>
                         <td><?= $data['birth'] ?></td>
                         <td><?= $data['email'] ?></td>
                         <td><?= $data['celular'] ?></td>
-                        <td class="row">
+                        <td class="row action">
                             <input type="hidden" name="id" value="<?= $data['id'] ?>">
                             <button id="button" type="submit" onclick="openModalUpdate(
                                 '<?= $data['id'] ?>',

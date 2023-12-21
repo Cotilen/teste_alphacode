@@ -36,3 +36,11 @@ label{
     border-width: 0;
     background-color: white;
 }
+
+table td{
+    width: 225px;
+}
+
+.action{
+    width: 150px;
+}
