@@ -37,8 +37,15 @@ label{
     background-color: white;
 }
 
-table td{
-    width: 225px;
+
+table td, th{
+    width: 230px;
+    text-align: center;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
 }
 
 .logo_rodape{
@@ -56,10 +63,11 @@ footer{
 }
 
 .table_scroll {
-    max-height: 300px;
+    max-height: 350px;
     overflow-y: auto; 
     display: block;
     overflow-x: hidden;
+    width: 99%;
 }
 
 .table_scroll::-webkit-scrollbar {

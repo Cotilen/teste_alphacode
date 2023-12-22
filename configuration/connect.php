@@ -2,10 +2,10 @@
 
 <?php
 
-    define('HOST','localhost');
+    define('HOST','db-alphacode.c7ks8ago4e4g.us-east-1.rds.amazonaws.com');
     define('DATABASENAME','db_teste_alphacode');
     define('USER','root');
-    define('PASSWORD','');
+    define('PASSWORD','Alphacode');
 
     class Connect{
         protected $connection;

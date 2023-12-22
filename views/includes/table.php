@@ -10,7 +10,7 @@
                     <th>Ações</th>
                 </tr>
             </thead>
-            <tbody >
+            <tbody>
                 <?php foreach ($resultData as $data) :
                     $array = $data
                 ?>

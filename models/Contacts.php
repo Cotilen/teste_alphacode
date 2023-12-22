@@ -25,7 +25,12 @@ class ContactsModel extends Connect
 
     function getAll()
     {
-        $sqlSelect = $this->connection->query("select * from $this->table");
+        $sqlSelect = $this->connection->query
+        (
+        "select id, date_format(birth, '%d/%m/%Y') as birth, name, email, phone,
+        celular, msgEmail, sms, whatsapp, profession
+        from $this->table"
+    );
 
         // COnverte o resultado em um Array Associativo
         $resultQuery = $sqlSelect->fetchAll();
